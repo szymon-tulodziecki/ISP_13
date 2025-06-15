@@ -1,0 +1,49 @@
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Pliki tymczasowe edytorów
+*.swp
+*.swo
+*.tmp
+*.bak
+*~
+
+# Katalogi edytorów i środowisk
+.vscode/
+.idea/
+*.code-workspace
+
+# Node.js (jeśli używasz npm/yarn)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Pliki testów i buildów (jeśli pojawią się w przyszłości)
+dist/
+build/
+coverage/
+
+# Pliki konfiguracyjne systemów CI/CD (opcjonalnie)
+.env
+.env.*
+
+# Katalogi tymczasowe
+tmp/
+temp/
+
+# Wykluczanie plików użytkownika (opcjonalnie)
+*.log
+
+# Przykład: ignoruj własne pliki robocze
+# *.local.*
+
+# Wykluczanie katalogu z paczkami, jeśli korzystasz z GitHub Packages lub npm
+# (na podstawie wcześniejszego użycia npm i GitHub Package Registry)
+# .npm/
+# .github/packages/
